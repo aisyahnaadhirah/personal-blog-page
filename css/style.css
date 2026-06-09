@@ -227,13 +227,19 @@ nav{
   justify-content:center;
 }
 
+.about-image{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
 .about-image img{
-  width:340px;
-  height:430px;
+  width:280px;
+  height:280px;
   object-fit:cover;
   border:8px solid #f7d5da;
-  border-radius:25px;
-  box-shadow:0 12px 28px rgba(0,0,0,0.25);
+  border-radius:50%;
+  box-shadow:0 10px 25px rgba(0,0,0,0.25);
 }
 
 /* BLOG */
