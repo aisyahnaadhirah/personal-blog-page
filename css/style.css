@@ -321,6 +321,17 @@ nav{
   line-height:1.5;
 }
 
+.contact-item a{
+  color:white;
+  text-decoration:none;
+  transition:0.3s;
+}
+
+.contact-item a:hover{
+  color:#f7d5da;
+  text-decoration:underline;
+}
+
 .contact-image img{
   width:380px;
   height:500px;
@@ -388,11 +399,15 @@ footer{
   }
 
   .hero-image img,
-  .about-image img,
-  .contact-image img{
-    width:280px;
-    height:360px;
-  }
+.contact-image img{
+  width:280px;
+  height:360px;
+}
+
+.about-image img{
+  width:280px;
+  height:280px;
+}
 
   .page-section{
     padding:50px 25px;
