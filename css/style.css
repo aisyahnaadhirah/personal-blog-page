@@ -393,6 +393,30 @@ footer{
     background:#d0848f;
   }
 
+  .contact-item{
+    justify-content:center;
+    align-items:center;
+    text-align:left;
+    gap:15px;
+}
+
+.contact-item span{
+    flex-shrink:0;
+}
+
+.contact-info{
+    width:100%;
+}
+
+.contact-image{
+    margin-top:30px;
+}
+
+.contact-image img{
+    width:250px;
+    height:320px;
+}
+
   .hero-text h1{
     font-size:55px;
   }
