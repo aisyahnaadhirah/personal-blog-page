@@ -10,19 +10,7 @@ body{
   color:white;
 }
 
-body.dark-theme{
-  background:#7d4d58;
-}
-
-body.dark-theme nav,
-body.dark-theme footer{
-  background:#6c3f4a;
-}
-
-body.dark-theme .hero,
-body.dark-theme .page-section{
-  background:#7d4d58;
-}
+/* NAVBAR */
 
 nav{
   width:100%;
@@ -63,6 +51,34 @@ nav{
   font-weight:800;
 }
 
+/* BUTTON */
+
+.btn{
+  display:inline-block;
+  margin-top:30px;
+  margin-right:10px;
+  background:white;
+  color:#c46f7d;
+  padding:12px 30px;
+  border-radius:35px;
+  text-decoration:none;
+  font-weight:700;
+  border:none;
+  cursor:pointer;
+  box-shadow:0 8px 18px rgba(0,0,0,0.18);
+  transition:0.3s;
+}
+
+.btn:hover{
+  background:#f7d5da;
+  color:#9f5260;
+  transform:translateY(-3px);
+}
+
+.secondary-btn{
+  background:#f7d5da;
+  color:#c46f7d;
+}
 
 /* HOME */
 
@@ -107,33 +123,6 @@ nav{
   letter-spacing:4px;
 }
 
-.btn{
-  display:inline-block;
-  margin-top:30px;
-  margin-right:10px;
-  background:white;
-  color:#c46f7d;
-  padding:12px 30px;
-  border-radius:35px;
-  text-decoration:none;
-  font-weight:700;
-  border:none;
-  cursor:pointer;
-  box-shadow:0 8px 18px rgba(0,0,0,0.18);
-  transition:0.3s;
-}
-
-.btn:hover{
-  background:#f7d5da;
-  color:#9f5260;
-  transform:translateY(-3px);
-}
-
-.secondary-btn{
-  background:#f7d5da;
-  color:#c46f7d;
-}
-
 .hero-image img{
   width:340px;
   height:430px;
@@ -155,10 +144,6 @@ nav{
   font-size:42px;
   text-shadow:4px 4px 8px rgba(0,0,0,0.25);
   margin-bottom:30px;
-}
-
-.small-title{
-  margin-top:25px;
 }
 
 /* ABOUT */
@@ -292,8 +277,6 @@ nav{
 
 /* CONTACT */
 
-/* CONTACT */
-
 .contact-layout{
   min-height:calc(100vh - 115px);
   display:flex;
@@ -327,11 +310,13 @@ nav{
   align-items:center;
   justify-content:center;
   font-size:25px;
+  flex-shrink:0;
 }
 
 .contact-item p{
   font-size:18px;
   line-height:1.45;
+  margin:0;
 }
 
 .contact-item a{
@@ -416,28 +401,18 @@ footer{
     height:360px;
   }
 
-  .about-image img{
-    width:280px;
-    height:280px;
-  }
-
-  .page-section{
-    padding:50px 25px;
-  }
-
-  .skills-projects{
-    grid-template-columns:1fr;
-  }
-
   .about-layout{
     display:flex;
-    justify-content:space-between;
-    align-items:center;
     gap:50px;
   }
 
   .about-card{
     padding:28px;
+  }
+
+  .about-image img{
+    width:280px;
+    height:280px;
   }
 
   .page-text h1{
@@ -452,31 +427,43 @@ footer{
     font-size:16px;
   }
 
-  /* CONTACT MOBILE FIX */
+  .page-section{
+    padding:50px 25px;
+  }
+
+  .skills-projects{
+    grid-template-columns:1fr;
+  }
 
   .contact-info{
     width:100%;
   }
 
+  .contact-info h1{
+    font-size:40px;
+    line-height:1.25;
+    margin-bottom:40px;
+  }
+
   .contact-item{
-    display:grid;
-    grid-template-columns:70px 1fr;
+    display:flex;
     align-items:center;
+    justify-content:flex-start;
     text-align:left;
-    gap:15px;
-    max-width:450px;
-    margin:0 auto 20px;
+    gap:18px;
+    max-width:520px;
+    margin:0 auto 24px;
   }
 
   .contact-item span{
-    width:60px;
-    height:60px;
-    margin:0;
+    width:62px;
+    height:62px;
+    font-size:26px;
   }
 
   .contact-item p{
-    margin:0;
     font-size:18px;
+    margin:0;
   }
 
   .contact-image{
@@ -486,42 +473,4 @@ footer{
   .btn{
     margin-top:25px;
   }
-}
-
-/* FIX BUTTON LINK STYLE */
-
-a.btn{
-  display:inline-block !important;
-  margin-top:30px;
-  margin-right:10px;
-  background:white !important;
-  color:#c46f7d !important;
-  padding:12px 30px;
-  border-radius:35px;
-  text-decoration:none !important;
-  font-weight:700;
-  border:none;
-  cursor:pointer;
-  box-shadow:0 8px 18px rgba(0,0,0,0.18);
-  transition:0.3s;
-}
-
-a.btn:hover{
-  background:#f7d5da !important;
-  color:#9f5260 !important;
-  transform:translateY(-3px);
-  text-decoration:none !important;
-}
-
-/* PHONE NUMBER MOBILE FIX */
-
-.phone-text{
-  color:white;
-  text-decoration:none !important;
-  border-bottom:none !important;
-}
-
-.phone-text::before,
-.phone-text::after{
-  display:none !important;
 }
