@@ -63,7 +63,6 @@ nav{
   font-weight:800;
 }
 
-/* HOME */
 
 /* HOME */
 
@@ -106,6 +105,33 @@ nav{
 .hero-text p{
   font-size:20px;
   letter-spacing:4px;
+}
+
+.btn{
+  display:inline-block;
+  margin-top:30px;
+  margin-right:10px;
+  background:white;
+  color:#c46f7d;
+  padding:12px 30px;
+  border-radius:35px;
+  text-decoration:none;
+  font-weight:700;
+  border:none;
+  cursor:pointer;
+  box-shadow:0 8px 18px rgba(0,0,0,0.18);
+  transition:0.3s;
+}
+
+.btn:hover{
+  background:#f7d5da;
+  color:#9f5260;
+  transform:translateY(-3px);
+}
+
+.secondary-btn{
+  background:#f7d5da;
+  color:#c46f7d;
 }
 
 .hero-image img{
