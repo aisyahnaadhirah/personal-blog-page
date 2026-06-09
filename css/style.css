@@ -512,3 +512,16 @@ a.btn:hover{
   transform:translateY(-3px);
   text-decoration:none !important;
 }
+
+/* PHONE NUMBER MOBILE FIX */
+
+.phone-text{
+  color:white;
+  text-decoration:none !important;
+  border-bottom:none !important;
+}
+
+.phone-text::before,
+.phone-text::after{
+  display:none !important;
+}
