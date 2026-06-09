@@ -1,73 +1,45 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-    <title>My Personal Blog</title>
-
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aisyah Naadhirah | Home</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="blog.html">Blog</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+<nav>
+  <div class="logo">AN</div>
+  <div class="nav-links">
+    <a href="index.html" class="active">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</nav>
 
-    <section class="hero">
+<section class="hero">
+  <div class="hero-text">
+    <h2>CREATIVE</h2>
+    <h1>PORTFOLIO</h1>
+    <div class="line"></div>
+    <h3>AISYAH NAADHIRAH</h3>
+    <p>Software Development Student</p>
 
-        <h1>Welcome to My Blog</h1>
+    <a href="blog.html" class="btn">View Blog</a>
+    <button onclick="toggleTheme()" class="btn secondary-btn">Change Theme</button>
+  </div>
 
-        <p>
-            I share my journey in learning software development.
-        </p>
+  <div class="hero-image">
+    <img src="images/profile.jpg" alt="Profile Picture">
+  </div>
+</section>
 
-        <button onclick="darkMode()">
-            Dark Mode
-        </button>
-
-    </section>
-
-    <section>
-
-        <h1>My Projects</h1>
-
-        <div class="post">
-
-            <h2>MediMeal Assist</h2>
-
-            <p>
-                A web-based meal planning system developed using CodeIgniter 4 and MySQL.
-            </p>
-
-        </div>
-
-        <div class="post">
-
-            <h2>Personal Blog Website</h2>
-
-            <p>
-                A responsive personal portfolio blog developed using HTML, CSS and JavaScript.
-            </p>
-
-        </div>
-
-    </section>
-
-    <script src="js/script.js"></script>
-
-    <footer>
-    <p>© 2026 Aisyah | Personal Blog</p>
-    </footer>
+<footer>
+  <p>© 2026 Aisyah Naadhirah | Personal Blog Portfolio</p>
+</footer>
 
 </body>
-
 </html>
