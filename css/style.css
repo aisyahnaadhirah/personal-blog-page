@@ -225,21 +225,16 @@ nav{
 .about-image{
   display:flex;
   justify-content:center;
-}
-
-.about-image{
-  display:flex;
-  justify-content:center;
   align-items:center;
 }
 
 .about-image img{
-  width:280px;
-  height:280px;
+  width:400px;
+  height:400px;
   object-fit:cover;
-  border:8px solid #f7d5da;
+  border:10px solid #f5d3d8;
   border-radius:50%;
-  box-shadow:0 10px 25px rgba(0,0,0,0.25);
+  box-shadow:0 20px 40px rgba(0,0,0,0.18);
 }
 
 /* BLOG */
@@ -408,7 +403,10 @@ footer{
   }
 
   .about-layout{
-  grid-template-columns:1fr;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:80px;
 }
 
 .about-card{
