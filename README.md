@@ -49,4 +49,4 @@ https://github.com/aisyahnaadhirah/personal-blog-page
 https://aisyahnaadhirah.github.io/personal-blog-page/
 
 ## Author
-Aisyah Naadhirah
+Aisyah Naadhirah Binti Muhmad Kamarulzaman
