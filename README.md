@@ -28,6 +28,10 @@ This project presents my personal background, blog posts, software project showc
 2. Open `index.html` in a web browser.
 
 ## Demo Link
+- **GitHub Repository:**
+https://github.com/aisyahnaadhirah/personal-blog-page
+
+- **Live Website (GitHub Pages):**
 https://aisyahnaadhirah.github.io/personal-blog-page/
 
 ## Author
