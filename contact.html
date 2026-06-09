@@ -1,45 +1,55 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>Contact</title>
-
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aisyah Naadhirah | Contact</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="blog.html">Blog</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+<nav>
+  <div class="logo">AN</div>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html" class="active">Contact</a>
+  </div>
+</nav>
 
-    <section>
+<section class="page-section contact-layout">
+  <div class="contact-info">
+    <h1>KEEP IN TOUCH WITH ME!</h1>
 
-        <h1>Contact Me</h1>
+    <div class="contact-item">
+      <span>📧</span>
+      <p><strong>Email</strong><br>aisyahnaadhirah@gmail.com</p>
+    </div>
 
-        <form>
+    <div class="contact-item">
+      <span>💻</span>
+      <p><strong>GitHub</strong><br>github.com/aisyahnaadhirah</p>
+    </div>
 
-            <input type="text" placeholder="Your Name">
+    <div class="contact-item">
+      <span>📍</span>
+      <p><strong>Location</strong><br>Malaysia</p>
+    </div>
 
-            <input type="email" placeholder="Your Email">
+    <button onclick="showMessage()" class="btn">Say Hello</button>
+  </div>
 
-            <textarea placeholder="Message"></textarea>
+  <div class="contact-image">
+    <img src="images/profile.jpg" alt="Profile Picture">
+  </div>
+</section>
 
-            <button type="submit">
-                Send
-            </button>
-
-        </form>
-
-    </section>
-
-    <footer>
-    <p>© 2026 Aisyah | Personal Blog</p>
-    </footer>
+<footer>
+  <p>© 2026 Aisyah Naadhirah | Personal Blog Portfolio</p>
+</footer>
 
 </body>
-
 </html>
